@@ -1,0 +1,42 @@
+body {
+    color: #333333;
+    margin: 0 auto;
+    max-width: 650px;
+    padding: 0px 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-content {
+    flex-grow: 1;
+}
+
+footer {
+    background-color: lightblue;
+}
+
+header {
+    background-color: lightcyan;
+}
+
+#head {
+    display: block;
+    width: 100%;
+    position: relative;
+}
+
+#nav {
+    position: absolute;
+    right: 0%;
+    top: 35%;
+}
+
+#res {
+    color: green;
+}
+
+#err {
+    color: red;
+}

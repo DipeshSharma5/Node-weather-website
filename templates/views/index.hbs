@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Home Page</title>
+         <link rel="stylesheet" href="/CSS/style.css">
+        <script src="/JS/app.js"></script>
+    </head>
+
+    <body>
+        <div class="main-content">
+            {{>header}}
+            <p>Welcome to the Weather Website</p>
+            <form>
+                <input>
+                <button onclick="fetching(event)">Search</button>
+            </form>
+            <p id="err"></p>
+            <p id="res"></p>
+        </div>
+        
+        {{>footer}}
+    </body>
+</html>
