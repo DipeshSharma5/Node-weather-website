@@ -8,7 +8,7 @@ function fetching(event)
     document.getElementById('res').innerHTML = "Loading...";
     event.preventDefault()
     const loc = document.querySelector('input').value;
-    fetch('http://localhost:3000/weather?address=' + loc).then(response => {
+    fetch('/weather?address=' + loc).then(response => {
         response.json().then(data =>{
             if(data.error)
             {
